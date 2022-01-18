@@ -1,0 +1,77 @@
+head{
+    font-size: 48px !important;
+}
+
+h1{
+    font-family: "Arial";
+    font-size: 50px;
+    color: #221614;
+}
+
+
+body{
+    background-color: #e9d9d9fb;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+
+.btn {
+    background-color: #babcbe;
+    position: relative;
+    padding: 12px 30px;
+    margin: .3125rem 1px;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.428571;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0;
+    border: 0;
+    border-radius: .2rem;
+    outline: 0;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
+    will-change: box-shadow,transform;
+}
+
+.btn.btn-just-icon {
+    font-size: 20px;
+    height: 41px;
+    min-width: 41px;
+    width: 41px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: 41px;
+}
+
+.btn.btn-just-icon fa{
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    transform: none;
+    left: 0;
+    top: 0;
+    height: 100%;
+    line-height: 41px;
+    font-size: 20px;
+}
+.btn.btn-link{
+    background-color: transparent;
+    color: #999;
+}
+
+
+.navbar {
+    border: 0;
+    border-radius: 3px;
+    padding: .625rem 0;
+    margin-bottom: 20px;
+    color: #555;
+    background-color: #fff!important;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15) !important;
+    z-index: 1000 !important;
+    transition: all 150ms ease 0s;
+    
+}
